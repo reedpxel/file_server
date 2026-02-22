@@ -1,1 +1,1 @@
-arm-linux-gnueabihf-g++-14 -fsanitize=undefined,address,leak -Wl,--dependency-file=CMakeFiles/file_server.dir/link.d CMakeFiles/file_server.dir/main.cpp.o -o file_server
+arm-linux-gnueabihf-g++-14 -static -Wl,--dependency-file=CMakeFiles/file_server.dir/link.d CMakeFiles/file_server.dir/main.cpp.o -o file_server

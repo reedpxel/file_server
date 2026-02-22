@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -std=gnu++20   -Wall -Wextra -Wpedantic -Werror -g -fsanitize=undefined,address,leak
+CXX_FLAGS = -std=gnu++20 -static
 
